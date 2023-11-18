@@ -44,24 +44,25 @@ body {
 }
 /*my learning popup*/
 .mylearning {
-  position: relative;
-  cursor: pointer;
+    position: relative;
+    cursor: pointer;
+  }
   
-}
-.mylearning__popup {
-  position: absolute;
-  background-color: white;
-  border: solid black 1px;
-  width: 100px;
-  top: 150%;
-  padding: 20px;
-  right: 0;
-  display: none;
-}
-
-.mylearning :hover .mylearning__popup {
+  .mylearning__popup {
+    position: absolute;
+    background-color: white;
+    border: solid black 1px;
+    width: 100px;
+    top: 150%;
+    padding: 20px;
+    right: 0;
+    display: none;
+  }
+  
+  .mylearning:hover .mylearning__popup {
     display: block;
-}
+  }
+  
 
 .Categories {
   display: flex;
